@@ -1,5 +1,5 @@
 # SRApD - Sequence Read Archive Project Downloader
-## Efficiently Download and convert projects from SRA browser *Requires sratoolkit
+## Efficiently Download and convert projects from SRA browser (Requires sratoolkit)
 
 ### Step 1: Download Accession List
 
