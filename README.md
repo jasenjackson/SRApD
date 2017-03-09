@@ -13,7 +13,7 @@ This should bring you to a page that has all of the files you want to download. 
 
 ### Step 2: Run SRApD.sh
 
-Once you have downloaded the accession list, you are ready to use SRApD.sh! In terminal, navigate to the file containing SRApD.sh You might enter the following for example:<br /><br />
+Once you have downloaded the accession list, you are ready to use SRApD.sh! Make sure SRApD.sh is in the sratoolkit/bin/ folder. In terminal, navigate to the file containing SRApD.sh You might enter the following for example:<br /><br />
 <b>cd /user/sratoolkit/bin</b><br />
 
 First, you will need to change the rights of the script so that you can use it. Type the following into terminal: <br /><br />
