@@ -13,12 +13,13 @@ This should bring you to a page that has all of the files you want to download. 
 
 ### Step 2: Run SRApD.sh
 
-Once you have downloaded the accession list, you are ready to use SRApD.sh! In terminal, navigate to the file containing SRApD.sh (i.e: cd /user/sratoolkit/bin).
+Once you have downloaded the accession list, you are ready to use SRApD.sh! In terminal, navigate to the file containing SRApD.sh You might enter the following for example:<br /><br />
+<b>cd /user/sratoolkit/bin</b><br />
 
-First, you will need to change the rights of the script so that you can use it. Type the following into terminal: <br />
+First, you will need to change the rights of the script so that you can use it. Type the following into terminal: <br /><br />
 <b>chmod 755 SRApD.sh </b><br />
 
-SRApD.sh has two arguments: the path/filename of the accession list and the folder where you want to store all of the reads. To use the script you must type "./" in front of "SRApD". For example: <br />
+SRApD.sh has two arguments: the path/filename of the accession list and the folder where you want to store all of the reads. To use the script you must type "./" in front of "SRApD". For example: <br /><br />
 <b>./SRApD.sh SRR_Acc_List.txt uterine-microbiome </b><br />
 
 Check your folder for your FASTQ files! =) 
