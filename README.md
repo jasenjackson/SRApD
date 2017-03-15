@@ -19,7 +19,10 @@ Once you have downloaded the accession list, you are ready to use SRApD.sh! Make
 First, you will need to change the rights of the script so that you can use it. Type the following into terminal: <br /><br />
 <b>chmod 755 SRApD.sh </b><br />
 
-SRApD.sh has two arguments: the path/filename of the accession list and the path/filename where you want to store all of the reads. If the output folder doesn't already exist, the SRApD will create it. To use the script you must type "./" in front of "SRApD". For example: <br /><br />
+SRApD.sh has two arguments: the path/filename of the accession list and the path/filename where you want to store all of the reads. If the output folder doesn't already exist, the SRApD will create it. To use the script you must type "./" in front of "SRApD". For example, if I wanted to store my data in a new "uterine-microbiome" folder with the path "Biol392/Data/uterine-microbiome" I would type: <br /><br />
 <b>./SRApD.sh SRR_Acc_List.txt Biol392/Data/uterine-microbiome </b><br />
+
+If I just wanted to store the data in a new file in my home directory, I would simply type type:<br /><br />
+<b>./SRApD.sh SRR_Acc_List.txt uterine-microbiome </b><br />
 
 Check your folder for your FASTQ files! =) 
